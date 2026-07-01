@@ -1,0 +1,13 @@
+package com.catlife;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CatLifeSystemApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CatLifeSystemApplication.class, args);
+    }
+
+}
